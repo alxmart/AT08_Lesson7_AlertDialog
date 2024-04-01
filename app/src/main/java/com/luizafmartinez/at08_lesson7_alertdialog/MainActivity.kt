@@ -10,7 +10,6 @@ import com.luizafmartinez.at08_lesson7_alertdialog.databinding.ActivityMainBindi
 class MainActivity : AppCompatActivity() {
 
     private val binding by lazy {
-
         ActivityMainBinding.inflate(layoutInflater)
     }
 
