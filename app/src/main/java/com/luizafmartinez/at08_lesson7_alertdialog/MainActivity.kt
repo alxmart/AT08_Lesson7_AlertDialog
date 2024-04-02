@@ -29,7 +29,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun save(view: View) {
+
         val saveAlert = AlertDialog.Builder(this)
+
         saveAlert.setTitle("Save")
         saveAlert.setMessage("Are you sure you want to save your changes ?")
 
